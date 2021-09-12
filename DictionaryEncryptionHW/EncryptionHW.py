@@ -11,5 +11,7 @@ def main():
                 if c == key:
                     c = codes[key]
                     outfile.write(c)
+    outfile.close()
+    infile.close
 
 main()
