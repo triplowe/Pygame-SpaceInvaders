@@ -20,8 +20,8 @@ class Settings:
         self.bullets_allowed = 3
 
         """Alien Settings"""
-        self.alien_speed = 1.0
-        self.fleet_drop_speed = 10
+        self.alien_speed = 0.1
+        self.fleet_drop_speed = 2
         self.fleet_direction = 1
 
         """How quickly the game speeds up"""
